@@ -15,7 +15,7 @@ const Hero = () => {
           </div>
           <form className="mt-3 mx-auto max-w-2xl w-full flex flex-col md:flex-row items-center">
             <div className="w-full md:w-3/5 md:pr-2 mb-4 md:mb-0">
-              <label htmlFor= "location" className="sr-only">
+              <label htmlFor="location" className="sr-only">
                 Location
               </label>
               <input
@@ -26,7 +26,7 @@ const Hero = () => {
               />
             </div>
             <div className="w-full md:w-2/5 md:pl-2">
-              <label htmlFor= "property-type" className="sr-only">
+              <label htmlFor="property-type" className="sr-only">
                 Property Type
               </label>
               <select
@@ -53,8 +53,6 @@ const Hero = () => {
           </form>
         </div>
       </section>
-
-      
     </div>
   );
 }
