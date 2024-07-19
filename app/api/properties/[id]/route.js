@@ -34,7 +34,7 @@ export const DELETE = async (request,{params}) => {
     if(!property) return new Response('property non found',{status:404})
     
     console.log('property')
-    if(property.owner.stringify()!=userId){
+    if(property.owner.toString()!=userId){
       return new Responce("unauthorized", { status: 401 });
     }
 
